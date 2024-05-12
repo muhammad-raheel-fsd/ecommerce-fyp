@@ -1,0 +1,26 @@
+{
+  "name": "amazon-ecommerce-clone",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Amazon ecommerce clone as final year project to UAF. In this project, Core functionality of ReactJs, NodeJs, ExpressJs, MongoDB and Socket.io is implemented along with the other libraries for better functionality",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "nodemon --watch backend --exec nodemon --experimental-modules server/server.js"
+  },
+  "author": "Muhammad Raheel",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^6.0.13",
+    "multer": "^1.4.3",
+    "react-paypal-button-v2": "^2.6.3",
+    "socket.io": "^4.4.0"
+  },
+  "keywords": []
+}
